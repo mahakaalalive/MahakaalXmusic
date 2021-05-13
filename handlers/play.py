@@ -572,7 +572,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "MahakalXmusic"
+        user.first_name =  "MahakaalXmusic"
     usar = user
     wew = usar.id
     try:
@@ -702,7 +702,7 @@ async def jiosaavn(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "MahakalXmusic"
+        user.first_name =  "MahakaalXmusic"
     usar = user
     wew = usar.id
     try:
@@ -800,12 +800,12 @@ async def jiosaavn(client: Client, message_: Message):
             chat_id=message_.chat.id,
             reply_markup=keyboard,
             photo="final.png",
-            caption=f"✯MahakalXmusic✯=#️⃣ Queued at position {position}",
+            caption=f"✯MahakaalXmusic✯=#️⃣ Queued at position {position}",
         
         )           
            
     else:
-        await res.edit_text("✯MahakalXmusic✯=▶️ Playing.....")
+        await res.edit_text("✯MahakaalXmusic✯=▶️ Playing.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
