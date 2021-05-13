@@ -1,8 +1,8 @@
-<h1 align="centre">OXYxMUSIC 🎵</h1>
+<h1 align="centre">MAHAKAALxMUSIC 🎵</h1>
 
 ### A bot that can play music on telegram group's voice call
 
-# Available on telegram as @Music_op_bot
+# Available on telegram as @Kohinoor_Music_Bot
 
 <p align="center">
   <img src="https://telegra.ph/file/965dfc5005cd4facef437.jpg">
@@ -52,7 +52,7 @@
 
 ### Deploy To Heroku</h4>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/OxyNotOp/OxyXmusic)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Mahakaalalive/OxyXmusic)
 
 Use [@Pyrogram_gen_bot](https://t.me/Pyrogram_gen_bot) to get pyrogram string session
 
