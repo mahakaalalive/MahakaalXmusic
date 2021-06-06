@@ -32,14 +32,14 @@ async def start(_, message: Message):
             [ 
                 [
                     InlineKeyboardButton(
-                        "📜 cσммαη∂s 📜", url="https://telegra.ph/%E0%A5%90---%CF%BB%CE%B1hakaal-05-13")
+                        "📜 cσммαη∂s 📜", url="https://telegra.ph/N%C3%B8b%CE%90-%EA%AA%8E-M%E0%B8%99%E0%BA%AEic-06-06-2")
                   ],[
                     InlineKeyboardButton(
-                        "❤️ мү σωηεя ❤️", url="https://t.me/Belongs_to_Lord_Shiva"
+                        "❤️ мү σωηεя ❤️", url="https://t.me/DesiNobita"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "🔥 σғғιcιαℓ gяσυρ 🔥", url="https://t.me/X_F0RCE_TEAM"
+                        "🔥 σғғιcιαℓ gяσυρ 🔥", url="https://t.me/cartoons_007"
                     )]
             ]
         ),
@@ -53,7 +53,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔥 мү σωηεя 🔥", url="https://t.me/Belongs_to_Lord_Shiva")
+                        "🔥 мү σωηεя 🔥", url="https://t.me/DesiNobita")
                 ]
             ]
         )
