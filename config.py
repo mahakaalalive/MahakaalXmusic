@@ -26,7 +26,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 BOT_NAME = getenv("BOT_NAME")
 admins = {}
 API_ID = int(getenv("API_ID"))
-API_HASH =int(getenv("API_HASH"))
+API_HASH = getenv("API_HASH")
 
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "7"))
 ARQ_API_KEY = getenv("ARQ_API_KEY", "WTEYAO-ACFYDB-NSUVJB-VXLEEO-ARQ")
