@@ -154,7 +154,7 @@ async def playlist(client, message):
         temp.append(t)
     now_playing = temp[0][0]
     by = temp[0][1].mention(style='md')
-    msg = "**Now Playing** in {} 🤟.⚫Pᴏᴡᴇʀᴇᴅ Bʏ яιzοєℓ мυѕιϲ ".format(message.chat.title)
+    msg = "**Now Playing** in {} 🤟.⚫Pᴏᴡᴇʀᴇᴅ Bʏ Nø͢͢͢bΐ ꪎ M͢͢͢นຮic  ".format(message.chat.title)
     msg += "\n- "+ now_playing
     msg += "\n- Req by "+by
     temp.pop(0)
@@ -454,7 +454,7 @@ async def play(_, message: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @RiZoeL_VC to your Group and try again</b>",
+                                  "\n\nOr manually add @NoBiTa_vC_pLaYeR to your Group and try again</b>",
                               )
                               pass
     try:
@@ -551,7 +551,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="▶️ **Playing** here the song requested by {} via 𝚁𝚒𝚉𝚘𝚎𝙻_𝙼𝚞𝚂𝚒𝚌 🖤".format(
+        caption="▶️ **Playing** here the song requested by {} via Nø͢͢͢bΐ ꪎ M͢͢͢นຮic❤".format(
         message.from_user.mention()
         ),
     )
@@ -572,7 +572,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "RiZoeL_MuSic"
+        user.first_name =  "Nø͢͢͢bΐ ꪎ M͢͢͢นຮic "
     usar = user
     wew = usar.id
     try:
@@ -602,7 +602,7 @@ async def deezer(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @RiZoeL_VC to your Group and try again</b>",
+                                  "\n\nOr manually add @NoBiTa_vC_pLaYeR to your Group and try again</b>",
                               )
                               pass
     try:
@@ -665,9 +665,9 @@ async def deezer(client: Client, message_: Message):
         loc = file_path
         appendable = [s_name, r_by, loc]
         qeue.append(appendable)
-        await res.edit_text(f"✧RiZoeL_MuSic✧= #️⃣ Queued at position {position}")
+        await res.edit_text(f"Nø͢͢͢bΐ ꪎ M͢͢͢นຮic = #️⃣ Queued at position {position}")
     else:
-        await res.edit_text("✧RiZoeL_MuSic =▶️ Playing.....")
+        await res.edit_text("Nø͢͢͢bΐ ꪎ M͢͢͢นຮic  =▶️ Playing.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
@@ -702,7 +702,7 @@ async def jiosaavn(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "RiZoeL_MuSic"
+        user.first_name =  "Nø͢͢͢bΐ ꪎ M͢͢͢นຮic "
     usar = user
     wew = usar.id
     try:
@@ -732,7 +732,7 @@ async def jiosaavn(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @RiZoeL_VC to your Group and try again</b>",
+                                  "\n\nOr manually add @NoBiTa_vC_pLaYeR to your Group and try again</b>",
                               )
                               pass
     try:
@@ -776,7 +776,7 @@ async def jiosaavn(client: Client, message_: Message):
              [
                InlineKeyboardButton(
                    text="σffι¢ιαℓ gяσυρ",
-                   url='https://t.me/X_F0RCE_TEAM')
+                   url='https://t.me/cartoons_007')
              ],
              [       
                InlineKeyboardButton(
@@ -800,12 +800,12 @@ async def jiosaavn(client: Client, message_: Message):
             chat_id=message_.chat.id,
             reply_markup=keyboard,
             photo="final.png",
-            caption=f"✧RiZoeL_MuSic✧=#️⃣ Queued at position {position}",
+            caption=f"Nø͢͢͢bΐ ꪎ M͢͢͢นຮic ♡=#️⃣ Queued at position {position}",
         
         )           
            
     else:
-        await res.edit_text("✧RiZoeL_MuSic✧=▶️ Playing.....")
+        await res.edit_text("♡Nø͢͢͢bΐ ꪎ M͢͢͢นຮic♡=▶️ Playing.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
