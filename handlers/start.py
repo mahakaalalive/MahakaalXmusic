@@ -26,9 +26,9 @@ from config import BOT_NAME as bn
 
 @Client.on_message(filters.command("start") & filters.private & ~filters.channel)
 async def start(_, message: Message):
-     await message.reply_sticker("CAACAgUAAxkBAAEKLNVgtzBywOMZFXoMLKkoFknQ_SDAZAACjAMAAj9SuVV51X1QFOqAZh8E")
+     await message.reply_sticker("CAACAgEAAxkBAAEKPYFgvK-Z4MyL5TTB5svb02ynAuSQxwACqQMAAlEpDTkGF5xuTsJ0-h8E")
      await message.reply_text(
-        f"""➼ Helloow 👋 {message.from_user.first_name}! I can play music in voice chats of Telegeam Groups. I have a lot of cool feature that will amaze you!\n\n➤ Do you want me to play music in your Telegram groups'voice chats? Please click the " cσммαη∂s " button below to know how you can use me.\n\n➤ Use the buttons below to know more about me 🖤\n\n➤ Contact my owner [🖤 ℝ𝕚ℤ𝕠𝕖𝕃 🖤](https://t.me/TheRiZoeL)""",
+        f"""➼ Helloow 👋 {message.from_user.first_name}! I can play music in voice chats of Telegeam Groups. I have a lot of cool feature that will amaze you!\n\n➤ Do you want me to play music in your Telegram groups'voice chats? Please click the " cσммαη∂s " button below to know how you can use me.\n\n➤ Use the buttons below to know more about me 🖤\n\n➤ Contact my owner [देसी ΝϴᏴᏆͲᎪ](https://t.me/DesiNobita)""",
         reply_markup=InlineKeyboardMarkup(
             [ 
                 [
@@ -36,7 +36,7 @@ async def start(_, message: Message):
                         "📜 cσммαη∂s 📜", url="https://telegra.ph/N%C3%B8b%CE%90-%EA%AA%8E-M%E0%B8%99%E0%BA%AEic-06-06-2")
                   ],[
                     InlineKeyboardButton(
-                        "�🔥Mץ OwŇeℝ🔥", url="https://t.me/DesiNobita"
+                        "🔥Mץ OwŇeℝ🔥", url="https://t.me/DesiNobita"
                     )
                 ],[ 
                     InlineKeyboardButton(
@@ -66,7 +66,7 @@ async def gstart(_, message: Message):
 )
 async def help(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>Here Is Cmd Of ʀɪᴢᴏᴇʟ_ᴍᴜsɪᴄ !
+        f"""<b>Here Is Cmd Of Nø͢͢͢bΐ ꪎ M͢͢͢นຮic !
 ╔━━━━━━━━⊰✦⊱━━━━━━━━╗
 /ply  - play audio or link you requested
 /play  - play song you requested
@@ -93,7 +93,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⊲ Assɪsᴛᴀɴᴛ ⊳", url="https://t.me/NoBi_vC_PlAyEr_RoBoT?startgroup=true"
+                        "⊲ Assɪsᴛᴀɴᴛ ⊳", url="https://t.me/NoBiTa_vC_pLaYeR?startgroup=true"
                     )
                 ],[
                     InlineKeyboardButton(
