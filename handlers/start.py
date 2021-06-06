@@ -26,21 +26,21 @@ from config import BOT_NAME as bn
 
 @Client.on_message(filters.command("start") & filters.private & ~filters.channel)
 async def start(_, message: Message):
-     await message.reply_sticker("CAACAgUAAxkBAAEKLOFgtzauneaP6WbcRfJlPMvPz_CCLgAC0AIAAvbj0VQ6KQtObIJRdR8E")
+     await message.reply_sticker("CAACAgUAAxkBAAEKLNVgtzBywOMZFXoMLKkoFknQ_SDAZAACjAMAAj9SuVV51X1QFOqAZh8E")
      await message.reply_text(
         f"""➼ Helloow 👋 {message.from_user.first_name}! I can play music in voice chats of Telegeam Groups. I have a lot of cool feature that will amaze you!\n\n➤ Do you want me to play music in your Telegram groups'voice chats? Please click the " cσммαη∂s " button below to know how you can use me.\n\n➤ Use the buttons below to know more about me 🖤\n\n➤ Contact my owner [🖤 ℝ𝕚ℤ𝕠𝕖𝕃 🖤](https://t.me/TheRiZoeL)""",
         reply_markup=InlineKeyboardMarkup(
             [ 
                 [
                     InlineKeyboardButton(
-                        "📜 cσммαη∂s 📜", url="https://telegra.ph/RiZoeL-MuSic-06-03-2")
+                        "📜 cσммαη∂s 📜", url="https://telegra.ph/N%C3%B8b%CE%90-%EA%AA%8E-M%E0%B8%99%E0%BA%AEic-06-06-2")
                   ],[
                     InlineKeyboardButton(
-                        "🖤 𝕄𝚢 𝕆𝚠𝚗𝚎𝚛 🖤️", url="https://t.me/TheRiZoeL"
+                        "�🔥Mץ OwŇeℝ🔥", url="https://t.me/DesiNobita"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "❤️ σғғιcιαℓ gяσυρ ❤️", url="https://t.me/X_F0RCE_TEAM"
+                        "❤️ σғғιcιαℓ gяσυρ ❤️", url="https://t.me/cartoons_007"
                     )]
             ]
         ),
@@ -54,7 +54,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🖤 ᎷᎽ ϴᏔΝᎬᎡ 🖤", url="https://t.me/TheRiZoeL")
+                        "🔥Mץ OwŇeℝ 🔥", url="https://t.me/TheRiZoeL")
                 ]
             ]
         )
@@ -93,14 +93,14 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⊲ Assɪsᴛᴀɴᴛ ⊳", url="https://t.me/RiZoeL_VC?startgroup=true"
+                        "⊲ Assɪsᴛᴀɴᴛ ⊳", url="https://t.me/NoBi_vC_PlAyEr_RoBoT?startgroup=true"
                     )
                 ],[
                     InlineKeyboardButton(
-                        "⛊ Ｏｗｎｅｒ ⛊", url="https://t.me/TheRiZoeL"
+                        "🔱 Ｏｗｎｅｒ 🔱", url="https://t.me/DesiNobita"
                     ),
                     InlineKeyboardButton(
-                        "✙ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ✙", url="https://t.me/RiZoeLvcBoT?startgroup=true"
+                        "✙ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ✙", url="https://t.me/NoBi_vC_PlAyEr_RoBoT?startgroup=true"
                     )
                 ]
             ]
