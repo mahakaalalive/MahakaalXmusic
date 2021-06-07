@@ -54,11 +54,11 @@ async def lego(event):
  else:
      
     if not quew:
-       await event.reply('Provide Some Text To Draw!')
+       await event.reply('Text To Provide Kar Noob 😂!')
        return
     else:
        pass
- await event.reply('Creating your logo...wait!')
+ await event.reply('ƇƦЄƛƬƖƝƓ...ƤԼЄƛƧЄ ƁЄ ƤƛƬƖЄƝƬ!')
  try:
     text = event.pattern_match.group(1)
     img = Image.open('./MashaRoBot/resources/blackbs.jpg')
