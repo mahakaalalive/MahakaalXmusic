@@ -1,4 +1,4 @@
-#credit - @Simpleboy787
+#credit - @DesiNobita
 from MashaRoBot.events import register
 from MashaRoBot import OWNER_ID
 from MashaRoBot import telethn as tbot
@@ -14,11 +14,11 @@ async def lego(event):
  else:
      
     if not quew:
-       await event.reply('Provide Some Text To Draw!')
+       await event.reply('Text To Provide Kar Noob 😂!')
        return
     else:
        pass
- await event.reply('Creating your logo...wait!')
+ await event.reply('ƇƦЄƛƬƖƝƓ...ƤԼЄƛƧЄ ƁЄ ƤƛƬƖЄƝƬ!')
  try:
     text = event.pattern_match.group(1)
     img = Image.open('./MashaRoBot/resources/blackbg.jpg')
@@ -37,11 +37,11 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="red")
     fname2 = "LogoByNobita.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Created By 么 S A S U K E 么 H I R O S H I 么")
+    await tbot.send_file(event.chat_id, fname2, caption="Created By Ϟ๏ɓitα ᴠℭ Ᏼo͢Ꭲ")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Report @Singing_cartoons_007, {e}')
+   await event.reply(f'Error Report it to @cartoons_007, {e}')
 
 
 
@@ -61,7 +61,7 @@ async def lego(event):
  await event.reply('Creating your logo...wait!')
  try:
     text = event.pattern_match.group(1)
-    img = Image.open('./MashaRoBot/resources/blackbg.jpg')
+    img = Image.open('./MashaRoBot/resources/blackbs.jpg')
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
     pointsize = 500
@@ -77,11 +77,11 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="yellow", stroke_width=0, stroke_fill="yellow")
     fname2 = "LogoByNobita.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Created By 么 S A S U K E 么 H I R O S H I 么")
+    await tbot.send_file(event.chat_id, fname2, caption="Created By Ϟ๏ɓitα ᴠℭ Ᏼo͢Ꭲ")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Report @Singing_cartoons_007, {e}')
+   await event.reply(f'Error Report @cartoons_007, {e}')
 
 file_help = os.path.basename(__file__)
 file_help = file_help.replace(".py", "")
