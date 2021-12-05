@@ -1,11 +1,11 @@
-<h1 align="centre">MAHAKAALxMUSIC 🎵</h1>
+<h1 align="centre">Nø͢͢͢bΐ ꪎ M͢͢͢นຮic 🎵</h1>
 
 ### A bot that can play music on telegram group's voice call
 
-# Available on telegram as @Kohinoor_Music_Bot
+# Available on telegram as @NoBiTa_vC_pLaYeR
 
 <p align="center">
-  <img src="https://telegra.ph/file/965dfc5005cd4facef437.jpg">
+  <img src="https://telegra.ph/file/51d2c0f3a0f71579a1ee8.jpg">
 </p>
 
 <h2> Whats new 🔥 </h2>
@@ -52,7 +52,7 @@
 
 ### Deploy To Heroku</h4>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Mahakaalalive/OxyXmusic)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/akashti5/MahakaalXmusic)
 
 Use [@Pyrogram_gen_bot](https://t.me/Pyrogram_gen_bot) to get pyrogram string session
 

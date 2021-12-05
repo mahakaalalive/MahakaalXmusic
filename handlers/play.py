@@ -113,7 +113,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
                 await f.close()
 
     image1 = Image.open("./background.png")
-    image2 = Image.open("etc/foreground.png")
+    image2 = Image.open("etc/playscomm.png")
     image3 = changeImageSize(1280, 720, image1)
     image4 = changeImageSize(1280, 720, image2)
     image5 = image3.convert("RGBA")
@@ -154,7 +154,7 @@ async def playlist(client, message):
         temp.append(t)
     now_playing = temp[0][0]
     by = temp[0][1].mention(style='md')
-    msg = "**Now Playing** in {}".format(message.chat.title)
+    msg = "**Now Playing** in {} 🤟.⚫Pᴏᴡᴇʀᴇᴅ Bʏ Nø͢͢͢bΐ ꪎ M͢͢͢นຮic  ".format(message.chat.title)
     msg += "\n- "+ now_playing
     msg += "\n- Req by "+by
     temp.pop(0)
@@ -166,7 +166,7 @@ async def playlist(client, message):
             usr = song[1].mention(style='md')
             msg += f'\n- {name}'
             msg += f'\n- Req by {usr}\n'
-    await message.reply_text(msg)       
+    await message.reply_text(msg)      
     
 # ============================= Settings =========================================
 
@@ -199,11 +199,11 @@ def r_ply(type_):
                 
             ],
             [
-                InlineKeyboardButton('ρℓαуℓιѕт 📖', 'playlist'),
+                InlineKeyboardButton('Pʟᴀʏʟɪsᴛ 📖', 'playlist'),
                 
             ],
             [       
-                InlineKeyboardButton("❌ ¢ℓσѕє",'cls')
+                InlineKeyboardButton("❌ ᴄʟᴏsᴇ",'cls')
             ]        
         ]
     )
@@ -372,11 +372,11 @@ async def m_cb(b, cb):
                 
                 ],
                 [
-                    InlineKeyboardButton('ρℓαуℓιѕт 📖', 'playlist'),
+                    InlineKeyboardButton('ᴘʟᴀʏʟɪsᴛ 📖', 'playlist'),
                 
                 ],
                 [       
-                    InlineKeyboardButton("❌ ¢ℓσѕє",'cls')
+                    InlineKeyboardButton("❌ ᴄʟᴏsᴇ",'cls')
                 ]        
             ]
         )
@@ -454,7 +454,7 @@ async def play(_, message: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @Kohinoor_Music_Bot to your Group and try again</b>",
+                                  "\n\nOr manually add @NoBiTa_vC_pLaYeR to your Group and try again</b>",
                               )
                               pass
     try:
@@ -502,19 +502,19 @@ async def play(_, message: Message):
             [   
                 [
                                
-                    InlineKeyboardButton('📖 ρℓαуℓιѕт', callback_data='playlist'),
-                    InlineKeyboardButton('мєиυ ⏯ ', callback_data='menu')
+                    InlineKeyboardButton('📖 Pʟᴀʏʟɪsᴛ', callback_data='playlist'),
+                    InlineKeyboardButton('ᴍᴇɴᴜ ⏯ ', callback_data='menu')
                 
                 ],                     
                 [
                     InlineKeyboardButton(
-                        text="ωαт¢н σи уσυтυвє 🎬",
+                        text="ωατϲн οи γουτυϐє 🎬",
                         url=f"{url}")
 
                 ],
                 [       
                     InlineKeyboardButton(
-                        text="❌ ¢ℓσѕє",
+                        text="❌ ᴄʟᴏsᴇ",
                         callback_data='cls')
 
                 ]                             
@@ -551,7 +551,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="▶️ **Playing** here the song requested by {} via MahakaalXmusic 😜".format(
+        caption="▶️ **Playing** here the song requested by {} via Nø͢͢͢bΐ ꪎ M͢͢͢นຮic❤".format(
         message.from_user.mention()
         ),
     )
@@ -572,7 +572,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "MahakaalXmusic"
+        user.first_name =  "Nø͢͢͢bΐ ꪎ M͢͢͢นຮic "
     usar = user
     wew = usar.id
     try:
@@ -602,7 +602,7 @@ async def deezer(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @Kohinoor_Music_Bot to your Group and try again</b>",
+                                  "\n\nOr manually add @NoBiTa_vC_pLaYeR to your Group and try again</b>",
                               )
                               pass
     try:
@@ -636,7 +636,7 @@ async def deezer(client: Client, message_: Message):
     keyboard = InlineKeyboardMarkup(
          [   
              [
-                 InlineKeyboardButton('📖 ρℓαуℓιѕт', callback_data='playlist'),
+                 InlineKeyboardButton('📖 Pʟᴀʏʟɪsᴛ', callback_data='playlist'),
                  InlineKeyboardButton('мєиυ ⏯ ', callback_data='menu')     
              ],                     
              [
@@ -647,7 +647,7 @@ async def deezer(client: Client, message_: Message):
              ],
              [       
                  InlineKeyboardButton(
-                     text="❌ ¢ℓσѕє",
+                     text="❌ ᴄʟᴏsᴇ",
                      callback_data='cls')
 
             ]                      
@@ -665,9 +665,9 @@ async def deezer(client: Client, message_: Message):
         loc = file_path
         appendable = [s_name, r_by, loc]
         qeue.append(appendable)
-        await res.edit_text(f"✯MahakalXmusic✯= #️⃣ Queued at position {position}")
+        await res.edit_text(f"Nø͢͢͢bΐ ꪎ M͢͢͢นຮic = #️⃣ Queued at position {position}")
     else:
-        await res.edit_text("✯MahakalXmusic✯=▶️ Playing.....")
+        await res.edit_text("Nø͢͢͢bΐ ꪎ M͢͢͢นຮic  =▶️ Playing.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
@@ -702,7 +702,7 @@ async def jiosaavn(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "MahakaalXmusic"
+        user.first_name =  "Nø͢͢͢bΐ ꪎ M͢͢͢นຮic "
     usar = user
     wew = usar.id
     try:
@@ -732,7 +732,7 @@ async def jiosaavn(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @Kohinoor_Music_Bot to your Group and try again</b>",
+                                  "\n\nOr manually add @NoBiTa_vC_pLaYeR to your Group and try again</b>",
                               )
                               pass
     try:
@@ -770,17 +770,17 @@ async def jiosaavn(client: Client, message_: Message):
     keyboard = InlineKeyboardMarkup(
          [   
              [
-               InlineKeyboardButton('📖 ρℓαуℓιѕт', callback_data='playlist'),
-               InlineKeyboardButton('мєиυ ⏯ ', callback_data='menu')   
+               InlineKeyboardButton('📖 ᴘʟᴀʏʟɪsᴛ', callback_data='playlist'),
+               InlineKeyboardButton('ᴍᴇɴᴜ ⏯ ', callback_data='menu')   
              ],                     
              [
                InlineKeyboardButton(
                    text="σffι¢ιαℓ gяσυρ",
-                   url='https://t.me/X_F0RCE_TEAM')
+                   url='https://t.me/cartoons_007')
              ],
              [       
                InlineKeyboardButton(
-                   text="❌ ¢ℓσѕє",
+                   text="❌ ᴄʟᴏsᴇ",
                    callback_data='cls')
 
             ]                          
@@ -800,12 +800,12 @@ async def jiosaavn(client: Client, message_: Message):
             chat_id=message_.chat.id,
             reply_markup=keyboard,
             photo="final.png",
-            caption=f"✯MahakaalXmusic✯=#️⃣ Queued at position {position}",
+            caption=f"Nø͢͢͢bΐ ꪎ M͢͢͢นຮic ♡=#️⃣ Queued at position {position}",
         
         )           
            
     else:
-        await res.edit_text("✯MahakaalXmusic✯=▶️ Playing.....")
+        await res.edit_text("♡Nø͢͢͢bΐ ꪎ M͢͢͢นຮic♡=▶️ Playing.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
